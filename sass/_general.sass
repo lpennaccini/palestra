@@ -1,0 +1,118 @@
+/* GENERAL */
+*
+    scroll-behavior: smooth
+    transition: .2s all linear
+body
+    background-color: var(--white)
+    color: var(--dark)
+    font-family: var(--fontBody)
+    font-size: var(--fs-normal)
+a
+    text-decoration: none
+    color: var(--dark)
+    &:hover
+        color: var(--blue)
+h1,h2,h3,h4,h5,h6
+    font-family: var(--fontTitle)
+    font-weight: var(--fw-700)
+    color: var(--dark)
+h1
+    font-size: 1.4rem
+    text-transform: uppercase
+    line-height: 1.1
+
+
+p
+    color: var(--grey)
+    font-size: 1rem
+    line-height: 1.3
+.text-white
+    color: var(--white)
+.sub-title
+    color: var(--grey)
+    text-transform: uppercase
+    font-family: var(--fontTitle)
+    font-weight: var(--fw-700)
+    font-size: 12vw
+    opacity: .1
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    text-align: center
+.btn
+    display: block
+    width: max-content
+    margin:20px 0
+    margin-inline: auto
+    padding: 10px 30px
+    font-weight: var(--fw-400)
+.btn-primary
+    background-color: var(--blue) 
+    color: var(--white)
+    &:hover
+        color: var(--white)
+        background-color: var(--dark)
+
+.btn-primary-shadow
+    background-color: var(--primary)
+    box-shadow: 0px 8px 10px 0px #cfcccc8a  
+    &:hover
+        color: var(--white)
+        background-color: var(--dark)
+.btn-outline
+    border: 2px solid var(--blue)
+    &:hover
+        color: var(--white)
+        background-color: var(--dark)
+        border: 2px solid var(--dark)
+.btn-round-primary 
+    background: var(--white)
+    display: inline-block
+    margin-top: 30px
+    width: 60px
+    height: 60px
+    border-radius: 50%
+    position: relative
+    margin-right: 30px
+    ion-icon
+        position: absolute
+        color: var(--blue)
+        top: 25%
+        left: 25%
+    &:hover
+        background-color: var(--blue)
+        ion-icon
+            color: var(--white)
+
+.btn-round-secondary 
+    background: var(--dark)
+    display: inline-block
+    margin-top: 30px
+    width: 60px
+    height: 60px
+    border-radius: 50%
+    position: relative
+    ion-icon
+        color: var(--white) 
+        position: absolute
+        top: 25%
+        left: 25%       
+    &:hover
+        background-color: var(--white)
+        ion-icon
+            color: var(--dark)
+.subtitle-dark
+    background-color: var(--dark)
+    color: var(--white)
+    display: inline-block
+    letter-spacing: 4px
+    text-transform: uppercase
+    font-weight: var(--fw-700)
+.subtitle-blue
+    background-color: var(--blue)
+    color: var(--white)
+    display: inline-block
+    letter-spacing: 4px
+    text-transform: uppercase
+    font-weight: var(--fw-700)
